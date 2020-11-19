@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sci-Fi book`s</title>
+    <link rel="stylesheet" href="css/style.css">
+    <script src="comments.js"></script>
+</head>
+<body>
+    <div class="wrapper">
+        <div class="header">
+            <div class="logo">
+                <a href="articles.html">
+                    <img class="logo-img" src="img/icon.png" alt="Home" title="Home">
+                </a>
+            </div>
+            <div class="navigation">
+                <ul>
+                    <li><a href="articles.html" title="Home">Home</a></li>
+                    <li><a href="article1.html"  class="nav-active" title="Best Sci-Fi books">Books</a></li>
+                    <li><a href="article2.html" title="Best Sci-Fi films">Films</a></li>
+                    <li><a href="article3.html" title="Best Sci-Fi games">Games</a></li>
+                </ul>
+            </div>
+            <div class="sandwich">
+                <div class="sandwich-icon"><img class="sandwich-img" src="img/sandwich.png" alt=""/></div>
+                <div class="mobnavigation">
+                    <ul>
+                        <li><a href="articles.html" title="Home">Home</a></li>
+                        <li><a href="article1.html"  class="nav-active" title="Best Sci-Fi books">Books</a></li>
+                        <li><a href="article2.html" title="Best Sci-Fi films">Films</a></li>
+                        <li><a href="article3.html" title="Best Sci-Fi games">Games</a></li>
+                    </ul>
+                </div>
+            </div>
+            
+
+        </div>
+
+        <div class="main">
+            <h1 class="title">Best Sci-Fi books</h1>
+            <div class="creation-date">2020-10-08</div>
+            <div class="author-mail">
+                <span class="author">Viktor Z.</span>
+                <a class="mail" href="mailto:zavikhorror@gmail.com">Response to this article</a>
+            </div>
+            <div class="article">
+                <div class="div-article-img"><img src="img/rat.jpg" alt="A Stainless Steel Rat is Born book title" class="article-img" title="A Stainless Steel Rat is Born"></div>
+                <p class="article-text">Now i write about only 1 book, it`s a "Stainless steel rat".</p>
+                <p class="article-text">James Bolivar diGriz, alias "Slippery Jim" and "The Stainless Steel Rat", is a fictional character and the antihero of a series of comic science fiction novels written by Harry Harrison. James Bolivar diGriz goes by many aliases, including "Slippery Jim" and "The Stainless Steel Rat". He is a futuristic con man, thief, and all-round rascal. He is charming and quick-witted. He is also a master of disguise and martial arts, an accomplished bank robber, a criminal mastermind, an expert on breaking and entering, and (perhaps most usefully) a skilled liar. Master of self-rationalization, the Rat frequently justifies his crimes by arguing that he is providing society with entertainment; and besides which, he only steals from institutions that have insurance coverage. He displays a strong sense of morality, albeit in a much more restricted sense than is traditional. For example, diGriz will steal without compunction, but deplores killing. The character was introduced in Harrison's short story "The Stainless Steel Rat", first published in 1957 in Astounding magazine. The story introduces the Rat, who has just carried out a successful larceny operation, and subsequently details a complex bank robbery the Rat pulls off with ease; however, he is outfoxed by the mysterious "Special Corps" — a crime-fighting organization staffed with former criminals — and recruited by them in order to fight crime. Harrison used the story, with minor modifications, as the introduction to the series's first full-length novel, also called The Stainless Steel Rat. Like other characters created by Harrison, the Rat is a speaker of Esperanto and advocates atheism.</p>
+            </div>
+            <article  id="artOpinions">
+                <h2>Visitor Opinions</h2>
+                <div id="opinionsContainer"></div>
+                <button id="clearOldComments">Clear old comments</button>
+            </article>
+            <h1>Leave your comment!</h1>
+            <form id="form1">
+                <label for="fname" class="required">First name: </label>
+                <input type="text" id="fname" name="fname">
+                <div id="fname_error">Enter correct first name!</div>
+                <label for="lname" class="required">Last name: </label>
+                <input type="text" id="lname" name="lname"><br><br>
+                <div id="lname_error">Enter correct last name!</div>
+                <label for="emails" class="required">Enter email addresses:</label>
+                <input type="text" id="emails" name="emails"><br><br>
+                <div id="email_error">Enter correct email!</div>
+                <!--<p>Please select your gender:</p>
+                <input type="radio" id="male" name="gender" value="male">
+                <label for="male">Male</label>
+                <input type="radio" id="female" name="gender" value="female">
+                <label for="female">Female</label>
+                <input type="radio" id="other" name="gender" value="other">
+                <label for="other">Other</label>
+    
+                <br>  
+    
+                <p>Please select your age:</p>
+                <input type="radio" id="age1" name="age" value="30">
+                <label for="age1">0 - 30</label>
+                <input type="radio" id="age2" name="age" value="60">
+                <label for="age2">31 - 60</label> 
+                <input type="radio" id="age3" name="age" value="100">
+                <label for="age3">61 - 100</label><br><br>
+    
+                <input type="checkbox" id="type1" name="type1" value="School">
+                <label for="type1"> I`m a pupil. </label>
+                <input type="checkbox" id="type2" name="type2" value="University">
+                <label for="type2"> I`m a student.</label>
+                <input type="checkbox" id="type3" name="type3" value="Lecturer">
+                <label for="type3"> I`m a lecturer.</label><br><br>-->
+                <label for="textarea">Write what you want:</label>
+                <textarea id="textarea" name="textarea" rows="4" cols="50" placeholder="Write something about you:"></textarea>
+                <br><br>
+                <input type="checkbox" id="willReturnElm" name="willReturn"/>
+                <label for="willReturnElm">I will definitely return to this page.</label>
+                <br><br>
+                <p>Click to submit.</p>
+                <input type="submit" value="Submit">
+                <p>Click to reset.</p>
+                <input type="reset" value="Reset">
+    
+
+            </form>
+        </div>
+        
+        <div class="footer">
+            <p class="footer-text">&copy; 2020 zavik.xyz</p>
+        </div>
+    </div>
+    <script src="comments.js"></script>
+</body>
+</html>
